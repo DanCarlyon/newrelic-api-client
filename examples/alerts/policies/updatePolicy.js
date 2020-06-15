@@ -1,6 +1,6 @@
-const newrelic = require('../../');
+const newrelic = require('../../../');
 
-require('../configure');
+require('../../configure');
 
 let options = {
     identifier: 905222,
@@ -8,7 +8,7 @@ let options = {
     name: 'Update API Test'
 };
 
-let updatePolicy = newrelic.alerts.updatePolicy(options)
+let updatePolicy = newrelic.policy.updatePolicy(options)
     .then(data => console.log(data))
     .catch(err => console.error(JSON.stringify(err)));
 

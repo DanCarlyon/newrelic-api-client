@@ -1,8 +1,8 @@
-const newrelic = require('../../');
+const newrelic = require('../../../');
 
-require('../configure');
+require('../../configure');
 
-let allPolicies = newrelic.alerts.getAllPolicies()
+let allPolicies = newrelic.policy.getAllPolicies()
     .then(data => console.log(data))
     .catch(err => console.error(JSON.stringify(err)));
 
