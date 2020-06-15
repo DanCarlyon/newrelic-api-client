@@ -17,4 +17,4 @@ pids
 logs
 results
 
-samples/config.json
+examples/configure.js
