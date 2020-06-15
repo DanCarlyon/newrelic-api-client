@@ -1,7 +1,8 @@
-const NewRelic = require('../../');
+const newrelic = require('../../');
+require('../configure');
 
-const getUserById = NewRelic.users.getById('1668661')
+const getUserById = newrelic.users.getById('1668661')
     .then(data => console.log(data))
     .catch(err => console.error(JSON.stringify(err)));
 
-console.log(user);
+console.log(getUserById);
