@@ -17,4 +17,4 @@ pids
 logs
 results
 
-examples/configure.js
+./examples/configure.js
