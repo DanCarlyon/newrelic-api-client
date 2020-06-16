@@ -6,13 +6,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DanCarlyon/newrelic-api-client.git"
+  },
   "keywords": [
     "newrelic",
     "newrelic-api",
-    "api"
+    "api",
+    "rest"
   ],
   "author": "DanCarlyon",
   "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/DanCarlyon/newrelic-api-client/issues"
+  },
+  "homepage": "https://github.com/DanCarlyon/newrelic-api-client#readme",
   "dependencies": {
     "node-fetch": "^2.6.0"
   }
