@@ -14,6 +14,9 @@ NewRelic NodeJS SDK covers:
 * Alert Policies API
 * Alert Notifications API
 * Alert Conditions API
+* Incidents API
+* Events API
+* Violations API
 
 ## Installation
 Node.js version >=0.6.x is required.
